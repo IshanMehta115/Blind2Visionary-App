@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:padding="5dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/item_book_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:padding="5dp"
+            android:text="Book name"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_book_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_book_title"
+            android:layout_alignStart="@id/item_book_title"
+            android:padding="5dp"
+            android:text="Author name"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:textSize="20sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bookDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_book_title"
+            android:layout_alignParentEnd="true"
+            app:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:layout_marginEnd="20dp"
+            app:elevation="6dp"
+            app:srcCompat="@android:drawable/stat_sys_download" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/purple_200">
+
+        <TextView
+            android:id="@+id/madeBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="Made By -"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/madeBy"
+            android:padding="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="50dp"
+            android:text="Aryan GD Singh\n\nDishant Gupta\n\nIshan Mehta\n\nIshaan Jindal"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/profileLink1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/names"
+            android:layout_alignTop="@+id/names"
+            app:backgroundTint="@color/white"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:contentDescription="profile link" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/profileLink2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileLink1"
+            android:layout_toEndOf="@+id/names"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/white"
+            android:contentDescription="profile link"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/profileLink3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileLink2"
+            android:layout_toEndOf="@+id/names"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/white"
+            android:contentDescription="profile link"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/profileLink4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileLink3"
+            android:layout_toEndOf="@+id/names"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/white"
+            android:contentDescription="profile link"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

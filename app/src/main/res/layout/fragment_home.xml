@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/videosIcon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/home_videos"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_ondemand_video_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/videosButton"
+        app:layout_constraintTop_toTopOf="@+id/articlesIcon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/articlesIcon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/home_articles"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_outline_article_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/booksIcon"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <ImageView
+        android:id="@+id/booksIcon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:clickable="false"
+        android:contentDescription="@string/home_books"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_twotone_menu_book_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <Button
+        android:id="@+id/videosButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="@string/home_videos"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/appsButton"
+        app:layout_constraintTop_toTopOf="@+id/articlesButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/booksButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="22dp"
+        android:text="@string/home_books"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/articlesIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/booksIcon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/appsButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="22dp"
+        android:text="@string/home_apps"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/videosIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toEndOf="@+id/booksButton"
+        app:layout_constraintTop_toTopOf="@+id/booksButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/articlesButton"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="@string/home_articles"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/booksButton"
+        app:layout_constraintTop_toBottomOf="@+id/articlesIcon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/appsIcon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/home_apps"
+        android:cropToPadding="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_app_settings_alt_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toEndOf="@+id/booksIcon"
+        app:layout_constraintTop_toTopOf="@+id/booksIcon"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="337dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/home_resource_text"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

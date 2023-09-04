@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Blind to Visionary</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="action_developer">Developer Details</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="contactNumber">9810842754</string>
+    <string name="websiteUrl">https://blind2visionary.org/</string>
+    <string name="profileLink1">https://github.com/resz2</string>
+    <string name="profileLink2">https://www.linkedin.com/in/dishant-gupta-a856ba1a7</string>
+    <string name="profileLink3">http://www.linkedin.com/in/ishan-mehta-2357741a7</string>
+    <string name="profileLink4">https://www.linkedin.com/in/ishaan-jindal-0596611a5</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_contact">Contact B2V</string>
+    <string name="menu_about">About us</string>
+
+    <string name="home_books">Books</string>
+    <string name="home_apps">Apps</string>
+    <string name="home_articles">Articles</string>
+    <string name="home_videos">Videos</string>
+    <string name="home_resource_text">Helpful Resources</string>
+
+    <string name="search_text">Search</string>
+
+    <string name="login_b2v_text">Blind2Visionary NGO</string>
+    <string name="login_create">Create New Account</string>
+    <string name="login_fullname">Full Name</string>
+    <string name="login_email">Email ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_register">Register</string>
+    <string name="login_already">Already Registered? Login here</string>
+    <string name="login_login">Login Here</string>
+    <string name="login_forgot">Forgot Password?</string>
+    <string name="large_text">Dr T K Bansal, firmly believes that the blind are much more
+        intelligent than the people believe they are. They can work with immense concentration
+        and can do wonders if proper guidance is provided. With a little help and encouragement
+        it can be shown that the blind are an asset for society and not a liability.
+        \n\n
+        Blind to Visionary works for the empowerment of the visually challenged people
+        specifically in the areas of Education, Employment and social inclusion.
+    </string>
+
+</resources>

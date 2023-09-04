@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:padding="5dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/appListIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="App Icon"
+            android:padding="5dp"
+            app:srcCompat="@drawable/apps01" />
+
+        <TextView
+            android:id="@+id/appListName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignTop="@id/appListIcon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/appListIcon"
+            android:text="App name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/appListDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/appListDetails"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/appListDetails"
+            android:insetTop="2dp"
+            android:insetBottom="2dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="download"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:backgroundTint="@color/green" />
+
+        <Button
+            android:id="@+id/appListDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/appListName"
+            android:layout_alignLeft="@id/appListName"
+            android:layout_marginTop="10dp"
+            android:insetTop="2dp"
+            android:insetBottom="2dp"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:text="details"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:backgroundTint="@color/teal_200" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
