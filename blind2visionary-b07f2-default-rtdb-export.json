@@ -1,0 +1,179 @@
+{
+  "apps" : {
+    "NVDA" : {
+      "desc" : "NVDA allows blind and vision impaired people to access and interact with the Windows operating system and many third party applications.",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fnvda.jpg?alt=media&token=7acf12f3-fcf7-44f1-ad91-1f10a1176ac5",
+      "name" : "NVDA (Non-visual Desktop access)",
+      "url" : "https://www.nvaccess.org/download/"
+    },
+    "NVDA addons" : {
+      "desc" : "NVDA add-ons are additional packages that can be downloaded and installed into your copy of NVDA to enhance existing functionality or add additional features.",
+      "icon" : "",
+      "name" : "NVDA add-ons",
+      "url" : "https://addons.nvda-project.org/index.en.html"
+    },
+    "cocolinux" : {
+      "desc" : "A GNU/Linux operating system accessible for the visually impaired. Brought to you by: nalinxlinux",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fcocolinux.jpg?alt=media&token=56ac8d88-956f-4166-8b8c-6277b4d2ea78",
+      "name" : "Accessible Coconut",
+      "url" : "https://sourceforge.net/projects/accessible-coconut/files/"
+    },
+    "kibo" : {
+      "desc" : "Kibo provides an end-to-end content accessibility platform and makes reading-learning inclusive for all (including the blind, low-vision and visually-impaired people)",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fkibo.jpg?alt=media&token=970827fb-d15e-48dc-a3bf-b62b8e4f15e5",
+      "name" : "Kibo Reader",
+      "url" : "https://play.google.com/store/apps/details?id=com.trestle.labs.kibo"
+    },
+    "thorium" : {
+      "desc" : "Thorium Reader is a free and open source reading app for Windows 10, MacOS and Linux. It supports EPUB 3 (both reflow and fixed layout), DAISY 3, and PDF documents.",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fthorium.jpg?alt=media&token=13852ab7-c92b-4443-8803-9c243f298058",
+      "name" : "Thorium Reader",
+      "url" : "https://www.microsoft.com/en-us/p/thorium-reader/9nfzp1g7m2sc?activetab=pivot:overviewtab"
+    },
+    "winrar" : {
+      "desc" : "WinRAR is a powerful compression, archiving and archive managing software tool.",
+      "icon" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fwinrar.jpg?alt=media&token=2c36d27b-56bf-4639-ae9a-8753b6b3bec0",
+      "name" : "WinRar",
+      "url" : "https://www.win-rar.com/start.html?&L=0"
+    }
+  },
+  "articles" : {
+    "a1" : {
+      "name" : "Accessible Coconut: an alternative for Linux.",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/articles%2Farticle1.pdf?alt=media&token=ea14fa21-94a0-4f2a-9d0c-86cc3f63dcdb"
+    },
+    "a2" : {
+      "name" : "Getting free license for Microsoft 365",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/articles%2Farticle2.pdf?alt=media&token=ea44fca3-da36-4cdf-9e98-fd251494005b"
+    },
+    "a3" : {
+      "name" : "How to change the talk Back gestures to the old versions.",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/articles%2Farticle3.pdf?alt=media&token=fffbc134-20e4-4402-860f-bd22f25c6b6c"
+    }
+  },
+  "books" : [ null, {
+    "author" : "Class 6",
+    "title" : "Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%206%20science.zip?alt=media&token=aa081240-8e28-45e6-b109-4edd13b68947"
+  }, {
+    "author" : "Class 7",
+    "title" : "Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2010%20maths%20exempler.zip?alt=media&token=9ff413b8-bf33-4126-a5c1-152e79941fe7"
+  }, {
+    "author" : "Class 8",
+    "title" : "Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%208%20science.zip?alt=media&token=a5564bad-a911-47fd-8c60-510c5aea7e44"
+  }, {
+    "author" : "Class 9",
+    "title" : "Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%209%20science.zip?alt=media&token=21df56c8-9811-4911-a150-1079e1fd2de3"
+  }, {
+    "author" : "Class 10",
+    "title" : "Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2010%20science.zip?alt=media&token=fc11f149-f13e-4bb8-8b0e-62804408c1b7"
+  }, {
+    "author" : "Class 11",
+    "title" : "Chemistry Part 1",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20chemistry%20part%201.zip?alt=media&token=6ae72930-094a-4758-9d13-dc54bfd2d28a"
+  }, {
+    "author" : "Class 11",
+    "title" : "Chemistry Part 2",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20chemistry%20part%202.zip?alt=media&token=53db3581-787e-4667-9c46-6262a4be66d7"
+  }, {
+    "author" : "Class 11",
+    "title" : "Chemistry Lab Manual",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20chemistry%20lab%20manual.zip?alt=media&token=d41d61f5-f5c3-4c24-9ecd-635e74d0fde1"
+  }, {
+    "author" : "Class 11",
+    "title" : "Physics Part 2",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20physics%20part%202.zip?alt=media&token=3e30a65f-3e4c-46b9-b67d-44d477e3b340"
+  }, {
+    "author" : "Class 12",
+    "title" : "Chemistry Part 2",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2012%20chemistry%20part%202.zip?alt=media&token=42b32049-9522-4e0f-8e4c-2be284dbbf6b"
+  }, {
+    "author" : "Class 12",
+    "title" : "Chemistry Lab Manual",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2012%20chemistry%20lab%20manual.zip?alt=media&token=bb41404c-89f0-4ed9-8b7f-092136521bed"
+  }, {
+    "author" : "Class 6",
+    "title" : "Maths",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%206%20maths.zip?alt=media&token=7e235b36-22bf-45f1-851c-34c66720adc0"
+  }, {
+    "author" : "Class 7",
+    "title" : "Maths",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%207%20maths.zip?alt=media&token=32482ca3-f7b3-4277-ae3c-f1c6d556b987"
+  }, {
+    "author" : "Class 8",
+    "title" : "Maths",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%208%20maths.zip?alt=media&token=d54d82d7-24ac-4c37-8ddf-dbb012378009"
+  }, {
+    "author" : "Class 9",
+    "title" : "Maths",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%209%20maths.zip?alt=media&token=c999c6a7-4b85-4555-8342-016badec2a99"
+  }, {
+    "author" : "Class 9",
+    "title" : "Maths Exemplar",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%209%20maths%20exempler.zip?alt=media&token=e8099915-26e1-4de5-a27e-312164504233"
+  }, {
+    "author" : "Class 10",
+    "title" : "Maths",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2010%20maths.zip?alt=media&token=f11c55fb-d2c7-4386-afa0-e3dcb9d47511"
+  }, {
+    "author" : "Class 10",
+    "title" : "Maths Exemplar",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2010%20maths%20exempler.zip?alt=media&token=9ff413b8-bf33-4126-a5c1-152e79941fe7"
+  }, {
+    "author" : "Class 11",
+    "title" : "Maths",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20maths.zip?alt=media&token=a9d8fe5c-5028-4d60-a063-6ff59b9b4555"
+  }, {
+    "author" : "Class 11",
+    "title" : "Maths Exemplar",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20maths%20exempler.zip?alt=media&token=fac31a68-770f-4005-b0af-35a883b3859e"
+  }, {
+    "author" : "Class 12",
+    "title" : "Maths Part 2",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2012%20maths%20part%202.zip?alt=media&token=399f823e-5a99-42de-8156-0f25c661d12e"
+  }, {
+    "author" : "Class 12",
+    "title" : "Maths Exemplar",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2012%20maths%20exempler.zip?alt=media&token=0bc96426-4260-4f03-8835-0d819e4e4a78"
+  }, {
+    "author" : "Class 11",
+    "title" : "Computer Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2011%20computer%20science.zip?alt=media&token=623a2c0b-3e2f-4c1d-882f-763694ec4acb"
+  }, {
+    "author" : "Class 12",
+    "title" : "Computer Science",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/books%2Fclass%2012%20computer%20science.zip?alt=media&token=853fa932-5539-498e-9b39-5a47268fe28e"
+  } ],
+  "users" : [ {
+    "desc" : "jhjggh",
+    "icon" : "jj",
+    "name" : "facebook",
+    "urlID" : "id1"
+  } ],
+  "videos" : {
+    "TECH SOLUTIONS" : {
+      "Designing for accessibility" : {
+        "pic" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fdesigning%20for%20accessibility.jpeg?alt=media&token=2cf0eefb-4946-4e37-8515-ed0c4dfad309",
+        "tag" : "TECH SOLUTIONS",
+        "title" : "Designing for accessibility",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/videos%2FDesigning_for_accessibility_in_Android_Studio_and_Jetpack_Compose.mp4?alt=media&token=76bbc279-2ea8-49ab-a375-38d715b6eafd"
+      },
+      "VS code and screen reader NVDA" : {
+        "pic" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fvscode%20and%20screen.jpeg?alt=media&token=bb4f9a57-c089-4665-a333-0fd1ff937f23",
+        "tag" : "TECH SOLUTIONS",
+        "title" : "VS code and screen reader NVDA",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/videos%2FDemystifying%20VS%20Code%20on%20Windows%20with%20the%20Screen%20Reader%20NVDA.mp4?alt=media&token=5c4dfdab-ec18-4feb-a69b-4b903c3ccdc6"
+      },
+      "screen reader NVDA" : {
+        "pic" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/thumbnails%2Fscreen%20reader%20NVDA.jpeg?alt=media&token=33f85590-29f3-4509-a828-9b274773ce03",
+        "tag" : "TECH SOLUTIONS",
+        "title" : "screen reader NVDA",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/b2v-app.appspot.com/o/videos%2FHow_to_take_NVDA_Screen_Reader_anywhere_and_use_it_on_any_PC.mp4?alt=media&token=104f4d0f-eb6b-4fea-ae42-4c6419ce5f60"
+      }
+    }
+  }
+}
