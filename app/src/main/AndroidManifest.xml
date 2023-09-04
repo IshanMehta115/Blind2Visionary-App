@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blind2visionary.andapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/b2vicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/b2vicon_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name="com.blind2visionary.andapp.video.ViewVideo"
+            android:parentActivityName="com.blind2visionary.andapp.video.VideoDisplayActivity" />
+        <activity
+            android:name="com.blind2visionary.andapp.video.VideoDisplayActivity"
+            android:parentActivityName="com.blind2visionary.andapp.video.VideosActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.article.ViewPdf"
+            android:parentActivityName="com.blind2visionary.andapp.article.ArticlesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.RegisterActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blind2visionary.andapp.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.video.VideosActivity"
+            android:parentActivityName="com.blind2visionary.andapp.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.article.ArticlesActivity"
+            android:parentActivityName="com.blind2visionary.andapp.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.app.AppsActivity"
+            android:parentActivityName="com.blind2visionary.andapp.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.book.BooksActivity"
+            android:parentActivityName="com.blind2visionary.andapp.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.DeveloperActivity"
+            android:parentActivityName="com.blind2visionary.andapp.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.blind2visionary.andapp.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
