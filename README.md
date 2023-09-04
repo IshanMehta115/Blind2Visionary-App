@@ -1,5 +1,14 @@
 # Blind 2 Visionary Mobile App
 
+
+## Screenshots
+
+![Screenshot 1](images/screenshot1.png)
+![Screenshot 2](images/screenshot2.png)
+![Screenshot 3](images/screenshot3.png)
+![Screenshot 4](images/screenshot4.png)
+
+
 ## Project Overview
 
 - **Organization**: Blind 2 Visionary
@@ -9,7 +18,7 @@
 - **Features**:
   - Basic user login and authentication.
   - Access to a repository of resources, including PDFs and educational videos.
-  - Community project mandated by the B.Tech CS program at IIITD.
+  - Community project mandated by the B.Tech CS program at [Indraprastha Institute of Information Technology, Delhi](https://www.iiitd.ac.in/).
 - **Team**: A collaborative effort by a team of four developers.
 
 ## About the Project
@@ -32,10 +41,3 @@ If you're interested in contributing to this project or running it locally, foll
 2. Open the project in Android Studio.
 3. Configure Firebase settings.
 4. Build and run the app.
-
-## Screenshots
-
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
-![Screenshot 3](images/screenshot3.png)
-![Screenshot 4](images/screenshot4.png)
