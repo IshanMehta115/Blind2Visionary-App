@@ -3,10 +3,12 @@
 
 ## Screenshots
 
-![Screenshot 1](images/screenshot1.png)
-![Screenshot 2](images/screenshot2.png)
-![Screenshot 3](images/screenshot3.png)
-![Screenshot 4](images/screenshot4.png)
+<p align="center">
+  <img src="https://github.com/IshanMehta115/Blind2Visionary-App/blob/main/pics/home_screen.PNG" alt="Home Screen" width="200">
+  <img src="https://github.com/IshanMehta115/Blind2Visionary-App/blob/main/pics/login_screen.PNG" alt="Login Screen" width="200">
+  <img src="https://github.com/IshanMehta115/Blind2Visionary-App/blob/main/pics/dev.PNG" alt="About Developers" width="200">
+  <img src="https://github.com/IshanMehta115/Blind2Visionary-App/blob/main/pics/resources.PNG" alt="Resources" width="800">
+ </p>
 
 
 ## Project Overview
